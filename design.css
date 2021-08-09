@@ -1,0 +1,72 @@
+body
+{
+    background-color: #f5f7fb;
+}
+#home
+{
+    background:linear-gradient(90deg,#fffcf7,#f0f4f9,#fcf5f5);
+    
+}
+.logo
+{
+    font-weight: 600;
+}
+.logo span:nth-of-type(1)
+{
+    color: #6db6f2 rebeccapurple;
+}
+.btn-secondary,.btn-check:focus+.btn-secondary, .btn-secondary:focus 
+{
+    color:#000; 
+    background-color: transparent; 
+    border-color: transparent;
+}
+.dropdown-menu
+{
+    color: #ffe;
+}
+.fa-map-marker:before {
+    content: "\f041";
+    color: #68dde7;
+    top: 10px;
+    font-size: 25px;
+    position: relative;
+}
+#button1
+{
+    padding: 4px 4px;
+    background: #35a3ff;
+    color: white;
+    border-radius: 10px;
+}
+.search {
+    width: 300px;
+    border: 3px solid seagreen;
+    margin-bottom: auto;
+    margin: 20px;
+    padding: 5px;
+    border-radius: 5px
+}
+.search .search-input
+{
+    width: 220px;
+    border: 0;
+}
+.fa-search:before 
+{
+    font-size: 30px;
+}
+.fa-circle:before {
+    content: "\f111";
+    color: crimson;
+}
+.btn-primary
+{
+    background-color:#1b99ff;
+
+}
+.btn-warning
+{
+    background-color: #fda216;
+    color: white;
+}
